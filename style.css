@@ -1,0 +1,81 @@
+
+* {
+    font-family: cursive;
+}
+
+  body {
+    background: #f2f2f2;
+    color: var(--cold-text);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* Encabezado */
+  .encabezado {
+    background: #ffffff;
+    padding: 1rem 0 0.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+
+  .encabezado-guatemala {
+    max-width: 220px;
+  }
+
+  .encabezado__titulo {
+    color: #0000fe;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 0.5rem;
+  }
+
+  /* Barra de navegación */
+  .navbar-cold {
+    background: #0000fe !important;
+  }
+
+  .navbar-cold .navbar-brand,
+  .navbar-cold .nav-link {
+    color: #fff !important;
+    transition: color 0.2s;
+  }
+
+  .navbar-cold .nav-link:hover,
+  .navbar-cold .navbar-brand:hover {
+    color: #ffffff !important;
+  }
+
+  /* Contenedor principal */
+  .section-card {
+    background: #fff;
+    border-radius: 0.75rem;
+    padding: 2rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+    margin-bottom: 2rem;
+  }
+
+  .sidebar-card {
+    background: #ffffff;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .sidebar-card img {
+    max-width: 140px;
+  }
+
+  /* Pie de página */
+  footer {
+    background: #0000fe;
+  }
+  .footer-text{
+      color: #ffffff;
+  }
+  .footer {
+background-color: #0000fe;       /* Color de fondo */
+color: white;                    /* Color del texto */
+text-align: center;              /* Centra el texto */
+padding: 20px;                   /* Espaciado interno */
+width: 100%;                     /* Ocupa todo el ancho */
+position: relative;             /* O usa fixed si quieres que quede pegado abajo */
+bottom: 0;
+}
