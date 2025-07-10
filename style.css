@@ -4,32 +4,33 @@
 }
 
   body {
-    background: #f2f2f2;
+    background: #fafafa;
     color: var(--cold-text);
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
 
   /* Encabezado */
   .encabezado {
-    background: #ffffff;
+    background: #ffebcd;
     padding: 1rem 0 0.5rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   }
 
   .encabezado-guatemala {
-    max-width: 220px;
+    max-width: 120px;
   }
 
   .encabezado__titulo {
-    color: #0000fe;
+    color: #000000;
     font-weight: 700;
     letter-spacing: 1px;
     margin-top: 0.5rem;
+    font-size: 32px;
   }
 
   /* Barra de navegación */
   .navbar-cold {
-    background: #0000fe !important;
+    background: #00695c !important;
   }
 
   .navbar-cold .navbar-brand,
@@ -71,7 +72,7 @@
       color: #ffffff;
   }
   .footer {
-background-color: #0000fe;       /* Color de fondo */
+background-color: #00695c;       /* Color de fondo */
 color: white;                    /* Color del texto */
 text-align: center;              /* Centra el texto */
 padding: 20px;                   /* Espaciado interno */
@@ -79,3 +80,14 @@ width: 100%;                     /* Ocupa todo el ancho */
 position: relative;             /* O usa fixed si quieres que quede pegado abajo */
 bottom: 0;
 }
+
+h1{
+  font-family: Semisonic;
+}
+
+@font-face {
+  font-family: Semisonic;
+  src: url(Fuentes/Semisonic.otf);
+}
+
+fo
