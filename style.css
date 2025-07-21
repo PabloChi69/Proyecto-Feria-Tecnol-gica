@@ -4,7 +4,7 @@
 }
 
   body {
-    background: #fafafa;
+    background: #e3f2fd;
     color: var(--cold-text);
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
@@ -21,7 +21,7 @@
   }
 
   .encabezado__titulo {
-    color: #000000;
+    color: #02442e;
     font-weight: 700;
     letter-spacing: 1px;
     margin-top: 0.5rem;
@@ -82,7 +82,7 @@ bottom: 0;
 }
 
 h1{
-  font-family: Semisonic;
+  font-family: creamy_chocolate;
 }
 
 @font-face {
@@ -90,4 +90,22 @@ h1{
   src: url(Fuentes/Semisonic.otf);
 }
 
-fo
+.card-title{
+  font-family: creamy_chocolate;
+  font-size: 27px;
+}
+
+@font-face {
+  font-family: Gameday;
+  src: url(Fuentes/Gameday.otf);
+}
+
+@font-face {
+  font-family: creamy_chocolate;
+  src: url(Fuentes/Creamy\ Chocolate.otf);
+}
+
+.card-text{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
