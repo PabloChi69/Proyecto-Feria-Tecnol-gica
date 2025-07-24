@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guatemala al vuelo</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/favicon.ico">
+</head>
+
+<style>
+  .region-vertical {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+
+  .region-vertical h2 {
+    color: #02442e;
+    margin-bottom: 10px;
+    font-family: Gameday;
+    font-size: 50px;
+  }
+
+  @font-face {
+    font-family: Gameday;
+    src: url(Fuentes/Gameday.otf);
+  }
+
+  .region-vertical p {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    font-size: 16px;
+    color: #444;
+
+  }
+
+  .lugar-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .lugar-vertical img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+
+  .lugar-vertical h3 {
+    color: #222;
+    margin-bottom: 8px;
+  }
+
+  .lugar-vertical p {
+    color: #555;
+    font-size: 14px;
+  }
+
+  h3 {
+    font-family: creamy_chocolate;
+  }
+</style>
+
+<body>
+
+  <!-- Barra de navegación -->
+
+  <nav class="navbar navbar-expand-lg navbar-cold navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html"><img src="img/favicon.ico" alt="home"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="reservaviaje.html">Reserva Tu Viaje Aquí</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Cuerpo de Página -->
+
+  <section id="region-central" class="region-vertical">
+    <h2>Región de las Verapaces</h2>
+    <p style="font-family: 'Times New Roman', Times, serif; font-size: 20px;">Sumérgete en la naturaleza exuberante de
+      Guatemala. En esta región descubrirás ríos cristalinos, cuevas místicas y una rica cultura q’eqchi’. </p>
+
+    <!-- Lugar 1 -->
+    <div class="lugar-vertical">
+      <img src="img/semucchampey - regionverapaces.png" alt="semucchampey">
+      <div class="info">
+        <h3>Semuch Champey</h3>
+        <p style="font-family: 'Times New Roman', Times, serif; font-size: 18px;">Visitar Semuc Champey es adentrarse en
+          un espectáculo natural único. Este monumento natural es famoso por sus pozas de agua turquesa que se forman
+          sobre un puente de piedra caliza bajo el cual fluye el río Cahabón. Rodeado de exuberante vegetación, ofrece
+          oportunidades para nadar, explorar cuevas, hacer senderismo y disfrutar de vistas impresionantes desde
+          miradores. Es un destino ideal para los amantes de la naturaleza, la aventura y la tranquilidad.</p>
+      </div>
+    </div>
+
+    <!-- Lugar 2 -->
+    <div class="lugar-vertical">
+      <img src="img/Riosachicha- regionverapaces.png" alt="Riosachicha-">
+      <div class="info">
+        <h3>Río Sachichá Villa Ecológica</h3>
+        <p style="font-family: 'Times New Roman', Times, serif; font-size: 18px;">Ubicado en el corazón de Alta Verapaz,
+          el Río Sachichá es más que un río: es una experiencia ecológica. Esta villa ecológica ofrece una conexión
+          profunda con la naturaleza, rodeada de flora tropical, senderos naturales y espacios para el descanso
+          consciente. Aquí puedes disfrutar del río cristalino, avistamiento de aves, hospedajes sostenibles y
+          actividades culturales con comunidades locales. Es el lugar perfecto para quienes buscan paz, aprendizaje y
+          armonía con el medio ambiente.</p>
+      </div>
+    </div>
+
+    <!-- Lugar 3 -->
+    <div class="lugar-vertical">
+      <img src="img/grutas- regionverapaces.png" alt="grutas-">
+      <div class="info">
+        <h3>Grutas de Lanquin</h3>
+        <p style="font-family: 'Times New Roman', Times, serif; font-size: 18px;">Explorar las Grutas de Lanquín es
+          ingresar a un universo subterráneo lleno de misterio y belleza natural. Estas impresionantes cavernas están
+          formadas por estalactitas y estalagmitas, y son recorridas por un río subterráneo que crea un ambiente mágico
+          e intrigante. Al anochecer, se puede presenciar el espectáculo de miles de murciélagos saliendo en vuelo.
+          Ideal para aventureros, amantes de la espeleología y curiosos de la geología, es una joya escondida de la
+          región.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <p style="font-family: 'Times New Roman', Times, serif;" class="footer-text">© 2025 GUATEMALAALVUELO – Todos los
+      derechos reservados</p>
+  </footer>
+
+  <!-- Scripts de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
